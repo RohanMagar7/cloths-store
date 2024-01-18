@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-size {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin: 8PX 4PX;
+    margin: auto;
+}
