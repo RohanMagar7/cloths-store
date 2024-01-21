@@ -18,7 +18,7 @@
         <ul class="ul">
             <li class="li"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li class="li"><a href="#"> <i class="fa-solid fa-user"></i></a></li>
-            <li class="li"><a href="#" id="cartLink" class="hdicon header-cart" title="Cart" role="button" aria-haspopup="dialog"><i class="fa-solid fa-heart"></i> <span id="CartCount" class="site-header__cart-count">1</span></a></li>
+            <li class="li"><a href="#" id="cartLink" class="hdicon" ><i class="fa-solid fa-heart"></i> <span id="CartCount" class="site-header__cart-count">1</span></a></li>
             <li class="li"><a href="#"> <i class="fa-solid fa-cart-shopping"></i><span id="CartCount" class="site-header__cart-count">1</span></a></li>
         </ul>
     </div>
@@ -70,4 +70,16 @@
         font-size: 18px;
 
     }
+    #CartCount, .favCount {
+    position: absolute;
+    background: #030505;
+    color: #fff;
+    min-width: 17px;
+    height: 16px;
+    border-radius: 16px;
+    line-height: 17px;
+    font-size: 11px;
+    right: 0px;
+    top: 6px;
+}
 </style>
