@@ -1,4 +1,4 @@
-const nav = document.querySelector('.navbar')
+const nav = document.querySelector('.navbar');
 fetch('../../../pages/Header/index.html')
 .then(res => res.text())
 .then(data=>{
@@ -26,3 +26,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 6000); // Change image every 6 seconds
 }
+
