@@ -1,4 +1,5 @@
 <div class="nav-bar">
+    <div><i class="fa-solid fa-bars" id="menu-icon"></i></div>
     <div class="logo">
         <li class="li"><a href="#">Cloth's Store</a></li>
     </div>
@@ -18,8 +19,10 @@
         <ul class="ul">
             <li class="li"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li class="li"><a href="#"> <i class="fa-solid fa-user"></i></a></li>
-            <li class="li"><a href="#" id="cartLink" class="hdicon" ><i class="fa-solid fa-heart"></i> <span id="CartCount" class="site-header__cart-count">1</span></a></li>
-            <li class="li"><a href="#"> <i class="fa-solid fa-cart-shopping"></i><span id="CartCount" class="site-header__cart-count">1</span></a></li>
+            <li class="li"><a href="#" id="cartLink" class="hdicon"><i class="fa-solid fa-heart"></i> <span
+                        id="CartCount" class="site-header__cart-count">1</span></a></li>
+            <li class="li"><a href="#"> <i class="fa-solid fa-cart-shopping"></i><span id="CartCount"
+                        class="site-header__cart-count">1</span></a></li>
         </ul>
     </div>
 </div>
@@ -35,6 +38,10 @@
         flex-wrap: wrap;
         color: #000;
         background-color: #fafafa;
+    }
+
+    #menu-icon {
+        display: none;
     }
 
     .li {
@@ -70,16 +77,39 @@
         font-size: 18px;
 
     }
-    #CartCount, .favCount {
-    position: absolute;
-    background: #030505;
-    color: #fff;
-    min-width: 17px;
-    height: 16px;
-    border-radius: 16px;
-    line-height: 17px;
-    font-size: 11px;
-    right: 0px;
-    top: 6px;
-}
+
+    #CartCount,
+    .favCount {
+        position: absolute;
+        background: #030505;
+        color: #fff;
+        min-width: 17px;
+        height: 16px;
+        border-radius: 16px;
+        line-height: 17px;
+        font-size: 11px;
+        right: 0px;
+        top: 6px;
+    }
+
+    @media screen and (max-width:1025px) {
+        .nav-menu {
+            display: none;
+        }
+
+        .nav-icon .ul #cartLink {
+            display: none;
+        }
+
+        .nav-bar {
+            padding: 0 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #menu-icon {
+            display: block;
+        }
+
+    }
 </style>
