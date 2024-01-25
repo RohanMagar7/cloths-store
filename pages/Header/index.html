@@ -1,7 +1,12 @@
 <div class="nav-bar">
-    <div><i class="fa-solid fa-bars" id="menu-icon"></i></div>
+    <ul id="ul-menu">
+        <li class="li" id="menu-icon"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+        <li class="li second-search"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+    </ul>
+
     <div class="logo">
         <li class="li"><a href="#">Cloth's Store</a></li>
+
     </div>
     <div class="nav-menu" id="nav-box1">
         <ul class="ul">
@@ -17,7 +22,7 @@
     </div>
     <div class="nav-icon">
         <ul class="ul">
-            <li class="li"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li id="main-search" class="li"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li class="li"><a href="#"> <i class="fa-solid fa-user"></i></a></li>
             <li class="li"><a href="#" id="cartLink" class="hdicon"><i class="fa-solid fa-heart"></i> <span
                         id="CartCount" class="site-header__cart-count">1</span></a></li>
@@ -35,12 +40,15 @@
         width: 100%;
         min-height: 70px;
         position: relative;
-        flex-wrap: wrap;
         color: #000;
         background-color: #fafafa;
     }
 
     #menu-icon {
+        display: none;
+    }
+
+    #ul-menu {
         display: none;
     }
 
@@ -70,6 +78,7 @@
     .logo li a {
         font-size: 23px;
         font-weight: 800;
+        text-wrap: nowrap;
     }
 
     .nav-icon ul li a {
@@ -92,6 +101,30 @@
         top: 6px;
     }
 
+    .second-search {
+        display: none;
+    }
+
+    .nav-bar .ul .li a {
+        text-wrap: nowrap;
+    }
+
+    @media screen and (max-width:1230px) {
+        .nav-bar .ul .li  {
+            transform: scale(0.8);
+        }
+        .ss_txt{
+            transform: scale(0.8);
+        }
+
+        .logo li a {
+            font-size: 20px;
+            font-weight: 800;
+            text-wrap: nowrap;
+        }
+
+    }
+
     @media screen and (max-width:1025px) {
         .nav-menu {
             display: none;
@@ -109,6 +142,18 @@
 
         #menu-icon {
             display: block;
+        }
+
+        #main-search {
+            display: none;
+        }
+
+        .second-search {
+            display: inline-block;
+        }
+
+        #ul-menu {
+            display: flex;
         }
 
     }
