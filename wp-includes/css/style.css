@@ -5,11 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
+
 
 
 
@@ -290,7 +286,7 @@ product card for home page  */
 .main-card-carousel {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 95%;
     height: 350px;
     overflow: auto;
     margin: auto;
@@ -372,6 +368,15 @@ product card for home page  */
     left: 25%;
 
 }
-*{
-    /* border: 2px solid green; */
+.brand-box{
+    padding: 1rem;
+    margin: 0.75rem;
+}
+.brands{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    overflow: auto;
+    gap: 2rem;
 }
