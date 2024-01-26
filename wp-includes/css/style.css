@@ -166,7 +166,8 @@ slider css */
         align-items: end;
         top: 85;
     }
-    .ss_txt{
+
+    .ss_txt {
         padding: 2rem;
         border-radius: 12px;
     }
@@ -185,9 +186,11 @@ slider css */
         height: 80%;
 
     }
-    #hide-product{
+
+    #hide-product {
         display: none;
     }
+
     .hero-right-1 {
         display: flex;
         flex-wrap: wrap;
@@ -261,6 +264,7 @@ slider css */
     padding-bottom: 25px;
     overflow: hidden;
 }
+
 .tc {
     text-align: center !important;
 }
@@ -278,17 +282,19 @@ slider css */
         line-height: 1.3;
     }
 }
+
 .hero-right-1 {
     display: flex;
 }
 
 
 
-.brand-box{
+.brand-box {
     padding: 1rem;
     margin: 0.75rem;
 }
-.brands{
+
+.brands {
     display: flex;
     width: 95%;
     margin: auto;
@@ -296,5 +302,3 @@ slider css */
     overflow: auto;
     gap: 2rem;
 }
-
-
