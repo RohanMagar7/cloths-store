@@ -89,6 +89,10 @@
         width: 100%;
     }
 
+    .show-hide-btn {
+        display: none;
+    }
+
     .footer-ul h1 {
         font-size: 15px;
         font-weight: 600;
@@ -129,6 +133,7 @@
         text-decoration: none;
         list-style: none;
         color: black;
+        padding: 6px 0;
     }
 
     .footer-ul li a {
@@ -162,12 +167,16 @@
 
     .main-footer p {
         padding: 8px 0;
+        width: 96%;
     }
 
     @media screen and (max-width:1024px) {
+
         .main-footer {
-            margin: 0.85rem;
+            width: 100%;
+            margin: auto;
             row-gap: 1.75rem;
+            padding: 1rem;
         }
 
         .main-footer .footer-box {
@@ -178,11 +187,15 @@
     @media screen and (max-width:766px) {
         .main-footer {
 
+            width: 99%;
             flex-direction: column;
             align-items: start;
-            padding: 0.78rem;
+            margin: auto;
             gap: 0.28rem;
+        }
 
+        .show-hide-btn {
+            display: block;
         }
 
         .main-footer .footer-box {
