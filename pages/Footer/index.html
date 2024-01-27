@@ -1,12 +1,12 @@
-<div class="footer">
-    <div class="footer-left 1">
+<div class="main-footer">
+    <div class="footer-box">
         <ul class="footer-ul">
             <h1 class="logos">Cloths Shore</h1>
-            <p>55 Gallaxy Enque,
+            <p class="p">55 Gallaxy Enque,
                 <br>2568 steet, 23568 NY
             </p>
-            <p><b>Phone: </b>(440) 000 000 0000</p>
-            <p><b>Email: </b> sales@yousite.com</p>
+            <p class="p"><b>Phone: </b>(440) 000 000 0000</p>
+            <p class="p"><b>Email: </b> sales@yousite.com</p>
             <ul class="ul">
                 <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                 <li><a href="#"> <i class="fa-solid fa-user"></i></a></li>
@@ -16,39 +16,48 @@
             </ul>
         </ul>
     </div>
-    <div class="footer-left">
+    <div class="footer-box">
         <ul class="footer-ul">
-            <h1>INFORMATION</h1>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Orders and Returns</a></li>
+            <div class="h1-slide-footer">
+                <h1 class="slide-footer">INFORMATION</h1>
+                <i class="fa-solid fa-angle-down show-hide-btn"></i>
+            </div>
+            <li class=" slide-item"><a href="#">About us</a></li>
+            <li class="slide-item"><a href="#">Contact Us</a></li>
+            <li class="slide-item"><a href="#">Career</a></li>
+            <li class="slide-item"><a href="#">My Account</a></li>
+            <li class="slide-item"><a href="#">Orders and Returns</a></li>
         </ul>
     </div>
-    <div class="footer-center">
+    <div class="footer-box">
         <ul class="footer-ul">
-            <h1>QUICK SHOP</h1>
-            <li><a href="#">Fashion</a></li>
-            <li><a href="#">Men</a></li>
-            <li><a href="#">Furniture</a></li>
-            <li><a href="#">Home Decor</a></li>
-            <li><a href="#">Shoes</a></li>
+            <div class="h1-slide-footer">
+                <h1 class="slide-footer">QUICK SHOP</h1>
+                <i class="fa-solid fa-angle-down show-hide-btn"></i>
+            </div>
+            <li class=" slide-item"><a href="#">Fashion</a></li>
+            <li class="slide-item"><a href="#">Men</a></li>
+            <li class="slide-item"><a href="#">Furniture</a></li>
+            <li class="slide-item"><a href="#">Home Decor</a></li>
+            <li class="slide-item"><a href="#">Shoes</a></li>
         </ul>
     </div>
-    <div class="footer-right">
+    <div class="footer-box">
         <ul class="footer-ul">
-            <h1>CUSTOMER SERVICES</h2>
-                <li><a href="#">Help & FAQs</a></li>
-                <li><a href="#">Returns Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Support Center</a></li>
+            <div class="h1-slide-footer">
+                <h1 class="slide-footer">CUSTOMER SERVICES</h2>
+                    <i class="fa-solid fa-angle-down show-hide-btn"></i>
+            </div>
+            <li class=" slide-item"><a href="#">Help & FAQs</a></li>
+            <li class="slide-item"><a href="#">Returns Policy</a></li>
+            <li class="slide-item"><a href="#">Terms & Conditions</a></li>
+            <li class="slide-item"><a href="#">Privacy Policy</a></li>
+            <li class="slide-item"><a href="#">Support Center</a></li>
         </ul>
     </div>
-    <div class="footer-right">
+    <div class="footer-box">
         <ul class="footer-ul">
-            <h1>NEWSLETTER</h1>
+            <h1 class="end-border">NEWSLETTER</h1>
             <li><a>Enter your email to receive <br> daily news and get 20% off <br> coupon for all items.</a></li>
             <li><input type="text" placeholder="Email Address"></li>
             <li><Button>SUBSCRIBE</Button></li>
@@ -59,23 +68,13 @@
 <div class="footer-text">
     <div class="footerleft"><span>© 2024 Avone. All Rights Reserved. <br> Ecommerce Software by Shopify
             Designed by AdornThemes</span></div>
-    <div class="footerright">
-        <ul class="ul footer-ul">
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            <li><a href="#"> <i class="fa-solid fa-user"></i></a></li>
-            <li><a href="/Pages/WishList/index.html"> <i class="fa-regular fa-heart"></i></a>
-            </li>
-            <li><a href="#"> <i class="fa-solid fa-cart-shopping"></i></a></li>
-        </ul>
-    </div>
-</div >
+</div>
 <div class="home-trav">
     <i class="fa-solid fa-arrow-up"></i>
 
 </div>
 <style>
-    
-    .footer {
+    .main-footer {
         margin-top: 22px;
         position: relative;
         display: flex;
@@ -90,22 +89,6 @@
         width: 100%;
     }
 
-    .footer-left p {
-        margin: 12px 0;
-    }
-
-    .footer-left ul li {
-        margin: 12px 0;
-    }
-
-    .footer-right ul li {
-        margin: 12px 0;
-    }
-
-    .footer-center ul li {
-        margin: 12px 0;
-    }
-
     .footer-ul h1 {
         font-size: 15px;
         font-weight: 600;
@@ -114,10 +97,6 @@
     .footer-ul .logos {
         font-size: 23px;
         font-weight: 900;
-    }
-
-    .ul li a {
-    
     }
 
     .footer-ul input {
@@ -137,7 +116,7 @@
         cursor: pointer;
     }
 
-    .footer-text { 
+    .footer-text {
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -157,20 +136,85 @@
         list-style: none;
         color: black;
     }
-    .home-trav{
-        height: 50px;
-        width: 50px;
-        border-radius:50%;
-        background-color:#f77575;
+
+    .home-trav {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: #f77575;
         position: fixed;
-        bottom: 0;
-        right: 0;
+        bottom: 64px;
+        right: 20px;
     }
 
-    .home-trav i{
+    .home-trav i {
         position: absolute;
         color: white;
-        top: 20px;
-        right: 20px;
+        top: 10px;
+        left: 10px;
+
+    }
+
+    .main-footer .ul {
+        gap: 12px;
+        padding-bottom: 12px;
+    }
+
+    .main-footer p {
+        padding: 8px 0;
+    }
+
+    @media screen and (max-width:1024px) {
+        .main-footer {
+            margin: 0.85rem;
+            row-gap: 1.75rem;
+        }
+
+        .main-footer .footer-box {
+            flex: 1 1 50%;
+        }
+    }
+
+    @media screen and (max-width:766px) {
+        .main-footer {
+
+            flex-direction: column;
+            align-items: start;
+            padding: 0.78rem;
+            gap: 0.28rem;
+
+        }
+
+        .main-footer .footer-box {
+            width: 100%;
+        }
+
+
+        .end-border {
+            border-top: 1px solid rgb(175, 170, 170);
+
+        }
+
+        .slide-item {
+            display: none
+        }
+
+        .h1-slide-footer {
+            padding: 10px 5px;
+            border-top: 1px solid rgb(175, 170, 170);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .h1-slide-footer i {
+            color: gray;
+            transition: all 0.3s ease;
+        }
+
+        .h1-slide-footer i:hover {
+            color: black;
+            cursor: pointer;
+        }
     }
 </style>

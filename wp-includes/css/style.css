@@ -164,7 +164,7 @@ slider css */
         width: 100%;
         justify-content: center;
         align-items: end;
-        top: 85;
+        top: 34px;
     }
 
     .ss_txt {
@@ -194,6 +194,10 @@ slider css */
     .hero-right-1 {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .img-size-2 {
+        display: none;
     }
 
 }
@@ -287,7 +291,96 @@ slider css */
     display: flex;
 }
 
+/* 
+product card for home page  */
+.main-card-carousel {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 350px;
+    margin: auto;
+    padding: 2rem;
+}
 
+.card-wp {
+    background-color: hsl(0, 3%, 75%);
+    width: 250px;
+    height: 350px;
+    margin: 12px;
+    position: relative;
+}
+
+.img-wp {
+    width: 100%;
+
+
+}
+
+.img-wp img {
+    width: 100%;
+    margin: auto;
+
+}
+
+.details-wp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details-wp span {
+    margin-top: 7px;
+}
+
+.details-wp p {
+    margin-top: 7px;
+}
+
+.details-wp .title-wp {
+
+    color: rgb(196, 118, 118);
+}
+
+.details-wp .title-wp span {
+
+    color: rgb(19, 18, 18);
+}
+
+.details-wp ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-wp ul li {
+    padding: 6px;
+    /* border-radius:50% ; */
+}
+
+.btn-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-product li {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: wheat;
+}
+
+.btn-icon {
+    display: none;
+}
+
+.card-wp:hover .btn-icon {
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+
+}
 
 .brand-box {
     padding: 1rem;
