@@ -391,3 +391,24 @@ product card for home page  */
     overflow: auto;
     gap: 2rem;
 }
+
+
+/*Product Page CSS */
+
+#all-product{
+    width: 100%;
+    display: flex;
+}
+
+.right-fliter{    width: 300px;
+    /* transition: all 0.3s ease-in-out; */
+
+    height: 500px;
+    background-color: red;
+}
+
+.left-product{
+    width: 100%!important;
+    height: 500px;
+    background-color: green;
+}
