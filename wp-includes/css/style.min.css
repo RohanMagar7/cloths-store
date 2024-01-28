@@ -8,6 +8,28 @@
 li {
     list-style: none;
 }
+.flex{
+    display: flex;
+}
+.spa-bet{
+    justify-content: space-between;
+}
+.spa-aro{
+    justify-content: space-around;
+}
+.align{
+    align-items: center;
+
+}
+.direc{flex-direction: column;}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
 
 /* 
 slider css */
@@ -399,16 +421,50 @@ product card for home page  */
     width: 100%;
     display: flex;
 }
+.right-side{
+    width: 400px;
+    margin: 0 20px;
+}
+.right-fliter{    
+    width: 350px;
+    transition: all 0.3s ease-in-out;
+    /* height: 500px; 
+    background-color: red;*/
+}
+#fliter-wp{
+    padding: 1rem;
+}
 
-.right-fliter{    width: 300px;
-    /* transition: all 0.3s ease-in-out; */
+#fliter-wp li{
+    padding: 0 17px;
+}
 
-    height: 500px;
-    background-color: red;
+
+#fliter-wp ul li {
+    margin-top: 1.5rem;
+} 
+#fliter-wp ul li a {
+    margin-left: 1.5rem;
+} 
+
+
+#fliter-wp ul li input[type=checkbox]
+{
+  transform: scale(1);
+  margin-right: 7px;
+
+}
+.popular-product div{ 
+    margin: 12px 0;
+}
+
+.text-pro strong{
+margin-bottom: 2rem;
+font-size: 15px;
 }
 
 .left-product{
     width: 100%!important;
-    height: 500px;
+    /* height: 500px; */
     background-color: green;
 }
