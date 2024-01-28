@@ -421,41 +421,38 @@ product card for home page  */
     width: 100%;
     display: flex;
 }
-.right-side{
-    width: 400px;
-    margin: 0 20px;
-}
+
 .right-fliter{    
-    width: 350px;
+    width: 400px;
     transition: all 0.3s ease-in-out;
-    /* height: 500px; 
-    background-color: red;*/
+    margin: 0.5rem;
 }
 #fliter-wp{
     padding: 1rem;
 }
 
 #fliter-wp li{
-    padding: 0 17px;
+    padding: 0 15px;
 }
 
 
 #fliter-wp ul li {
     margin-top: 1.5rem;
+    font-size: 0.7rem;
 } 
 #fliter-wp ul li a {
-    margin-left: 1.5rem;
+    font-size: 0.8rem;
 } 
 
 
 #fliter-wp ul li input[type=checkbox]
 {
-  transform: scale(1);
   margin-right: 7px;
 
 }
 .popular-product div{ 
     margin: 12px 0;
+    gap:0  2rem ;
 }
 
 .text-pro strong{
@@ -465,6 +462,81 @@ font-size: 15px;
 
 .left-product{
     width: 100%!important;
-    /* height: 500px; */
-    background-color: green;
+}
+
+.location-name {
+    margin: 0 0 2rem 0 ;
+    padding: 0.5rem 2rem;
+    background-color: #dedede;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.left-product .product-title{
+    padding: 0.5rem 2rem;
+    line-height: 1.4rem;
+}
+.left-product .product-title h1{
+    margin: 0 0 1rem 0 ;
+}
+.nav-btn-pdt{
+    padding: 0.5rem 2rem;
+    height: 32px;
+}
+.nav-btn-pdt button{
+    padding: 0.5rem 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
+}
+.filters-toolbar{
+ border: none;
+ outline: none;
+ padding: 0.5rem;
+}
+
+@media (max-width:1025px) {
+    .right-fliter{
+        display: none;
+    }
+    
+    .left-product .product-title{
+        padding: 0.5rem 2rem;
+        line-height: 1.4rem;
+    }
+    .left-product .product-title h1{
+        margin: 0 0 1rem 0 ;
+    }
+    .nav-btn-pdt{
+        padding: 0.5rem 2rem;
+        height: 32px;
+    }
+    .nav-btn-pdt button{
+        padding: 0.5rem 1.3rem;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #000;
+        color: #ffff;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        
+    }
+    .filters-toolbar{
+     border: none;
+     outline: none;
+     padding: 0.5rem;
+    }
+
+
+
 }
