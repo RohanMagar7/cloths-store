@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* 
+Utilits */
 
 li {
     list-style: none;
@@ -31,6 +33,9 @@ a{
     color: #000;
     text-decoration: none;
 }
+
+
+
 
 /* 
 slider css */
@@ -103,15 +108,7 @@ slider css */
     margin-bottom: 25px;
     text-align: center;
 }
-
-/* .st1 {
-    text-align: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    padding: 229px 35px;
-} */
+ 
 
 .btn {
     font-weight: 500;
@@ -171,6 +168,9 @@ slider css */
     }
 }
 
+
+
+
 @media screen and (max-width:770px) {
     .text-box {
         width: 100%;
@@ -221,8 +221,12 @@ slider css */
 
 }
 
+
+
+
+
 /* product hovar show home */
-.hero-product-card {
+.hero-product-hov {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,6 +285,9 @@ slider css */
     transform: scale(1.2);
 }
 
+
+
+
 /* title for all product */
 .sec-ttl {
     padding-top: 25px;
@@ -309,97 +316,203 @@ slider css */
 .hero-right-1 {
     display: flex;
 }
+ 
+
+
 
 /* 
 product card for home page  */
-.main-card-carousel {
+
+.container-card {
     display: flex;
     justify-content: center;
-    width: 95%;
-    height: 350px;
-    margin: auto;
-    padding: 2rem;
+    align-items: center;
+    height: 500px;
+    width: 100%;
 }
 
-.card-wp {
-    background-color: hsl(0, 3%, 75%);
+.container-card .card {
+    margin: 1rem;
+    position: relative;
     width: 250px;
     height: 350px;
-    margin: 12px;
-    position: relative;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.img-wp {
-    width: 100%;
-
-
-}
-
-.img-wp img {
-    width: 100%;
-    margin: auto;
-
-}
-
-.details-wp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.details-wp span {
-    margin-top: 7px;
-}
-
-.details-wp p {
-    margin-top: 7px;
-}
-
-.details-wp .title-wp {
-
-    color: rgb(196, 118, 118);
-}
-
-.details-wp .title-wp span {
-
-    color: rgb(19, 18, 18);
-}
-
-.details-wp ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.details-wp ul li {
-    padding: 6px;
-    /* border-radius:50% ; */
-}
-
-.btn-product {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-product li {
-    padding: 5px;
-    margin: 10px;
-    border: 1px solid black;
-    background-color: wheat;
-}
-
-.btn-icon {
-    display: none;
-}
-
-.card-wp:hover .btn-icon {
-    display: block;
+.container-card .card:before {
+    content: "";
     position: absolute;
-    bottom: 2%;
-    left: 25%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e99619;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container-card .card:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.container-card .card:after {
+    content: "Nike";
+    position: absolute;
+    top: 25%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.04);
 
 }
+
+.container-card .card .imgBx {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.container-card .card:hover .imgBx {
+    top: 0%;
+    transform: translateY(-25%);
+    /* bug  */
+}
+
+.container-card .card .imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.container-card .card .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+
+.container-card .card:hover .contentBx {
+    height: 180px;
+}
+
+.container-card .card .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.container-card .card .contentBx .size,
+.container-card .card .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container-card .card:hover .contentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+.container-card .card:hover .contentBx .color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+.container-card .card .contentBx .size h3,
+.container-card .card .contentBx .color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.container-card .card .contentBx .size span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 12px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 3px;
+    transition: .5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-card .card .contentBx .size span:hover {  /* other bug */
+    background: #B90000;
+}
+
+.container-card .card .contentBx .color span {
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.container-card .card .contentBx .color span:nth-child(2) {
+     background: #121516;
+}
+
+.container-card .card .contentBx .color span:nth-child(3) {
+     background: #1B2FE9;
+}
+
+.container-card .card .contentBx .color span:nth-child(4) {
+     background: #080481;
+}
+
+.container-card .card .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .5s;
+}
+
+.container-card .card:hover .contentBx a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: .7s;
+}
+
+
+
+/* Brand and companys */
 
 .brand-box {
     padding: 1rem;
@@ -414,6 +527,7 @@ product card for home page  */
     overflow: auto;
     gap: 2rem;
 }
+
 
 
 /*Product Page CSS */
@@ -472,11 +586,6 @@ font-size: 1.4rem;
     text-transform: capitalize;
 }
 
-
-
-
-
-
 .left-product .product-title{
     padding: 0.5rem 2rem;
     line-height: 1.4rem;
@@ -504,6 +613,7 @@ font-size: 1.4rem;
  outline: none;
  padding: 0.5rem;
 }
+
 
 @media (max-width:1025px) {
     .right-fliter{
@@ -537,7 +647,5 @@ font-size: 1.4rem;
      outline: none;
      padding: 0.5rem;
     }
-
-
 
 }
