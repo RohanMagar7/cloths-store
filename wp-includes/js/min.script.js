@@ -27,4 +27,4 @@ function showSlides() {
 
 
 
-    
+    // not write fr the 
