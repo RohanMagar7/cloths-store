@@ -286,8 +286,67 @@ slider css */
     transform: scale(1.2);
 }
 
+/* Card for 4 Produc */
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     overflow: scroll;
+}
+.card-main{  
+    position: relative;
+    margin: 1rem;
+    width: 250px;
+    height: 280px;
+   border: #000 solid 1px;
+   border-radius: 14px;
+   text-align: center;
+}
 
+.img-div img{
+     border-radius: 14px 14px 0 0;
+    width: 100%;
+    height:170px ;
+}
 
+.buy-span{
+    display: none;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    width: 33%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.buy-span ul li {
+    border: #000 1px solid;
+    padding: 6px;
+    margin:0 5px  ;
+}
+
+.buy-span ul li:hover{
+    color: white;
+    background-color: black;
+}
+.buy-span ul li:hover a{
+    color: white;
+}
+.details-card{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.details-card p{
+    margin-bottom :5px;
+    font-weight: 600;
+}
+.price-text span{
+    font-weight: 800;
+    color: rgb(247, 61, 247);
+}
 
 /* title for all product */
 .sec-ttl {
@@ -493,7 +552,34 @@ font-size: 1.4rem;
 
 .product-contenier{
     width: 100%;
-    background-color: red;
     padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-contenier .card-main{
+    width: 280px;
+    height: 440px;
+    border: none;
+    border-radius: 0px ;
+    
+}
+.product-contenier .card-main img{
+    height: 340px;   
+    border-radius: 0px ;
 
 }
+
+.product-contenier .card-main .buy-span{
+    display: none;
+    z-index: 999;
+    top: 65%;
+    left: 50%;
+    margin: auto;
+    width: 33%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.card-main:hover .buy-span {  
+display: inline;}
