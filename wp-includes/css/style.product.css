@@ -176,7 +176,10 @@
 [data-tooltip]:hover::before {
 	opacity: 1;
 }
-
+#img-pro{
+	object-fit: cover;
+	object-position: -54px ;
+}
 .card {
 	border-radius: 5px;
 	padding: 20px;
