@@ -21,15 +21,6 @@
 <body>
     <header class="navbar" id="nav-bar"></header>
     <main>
-
-        <div class="sidebar-cart">
-            <div class="head"><p>My Cart</p></div>
-            <div class="cartItem">Your cart is empty</div>
-            <div class="foot">
-                <h3>Total</h3>
-                <h2 id="total">$ 00.0</h2>
-            </div>
-        </div>
         <div class="location-name">Home |<b> Women</b></div>
         <section id="all-product">
             <div class="right-fliter">
@@ -48,12 +39,12 @@
                     <strong>COLOR</strong>
                     <ul class="flex align wrap">
 
-                        <li><input type="checkbox" name="color" id=""></li>
-                        <li><input type="checkbox" name="color" id=""></li>
-                        <li><input type="checkbox" name="color" id=""></li>
-                        <li><input type="checkbox" name="color" id=""></li>
-                        <li><input type="checkbox" name="color" id=""></li>
-                        <li><input type="checkbox" name="color" id=""></li>
+                        <li><input type="radio" name="color" class="product-card__btn-radio"></li>
+                        <li><input type="radio" name="color" class="product-card__btn-radio"></li>
+                        <li><input type="radio" name="color" class="product-card__btn-radio"></li>
+                        <li><input type="radio" name="color" class="product-card__btn-radio"></li>
+                        <li><input type="radio" name="color" class="product-card__btn-radio"></li>
+                        <li><input type="radio" name="color" class="product-card__btn-radio"></li>
                     </ul>
                 </div>
                 <div id="fliter-wp" class="size-fliter">
@@ -78,9 +69,27 @@
                 </div>
                 <div id="fliter-wp" class="price-fliter">
                     <strong>PRICE</strong>
-                    <ul>
-                        <li><input type="range"></li>
-                    </ul>
+                    <div class="card">
+                        <div class="price-content">
+                            <div>
+                                <label>Min</label>
+                                <p id="min-value">$50</p>
+                            </div>
+
+                            <div>
+                                <label>Max</label>
+                                <p id="max-value">$500</p>
+                            </div>
+                        </div>
+
+                        <div class="range-slider">
+                            <div class="range-fill"></div>
+
+                            <input type="range" class="min-price" value="100" min="10" max="500" step="10" />
+                            <input type="range" class="max-price" value="250" min="10" max="500" step="10" />
+                        </div>
+                    </div>
+
                 </div>
                 <div id="fliter-wp" class="product-type-fliter">
                     <strong>PRUDUCT TYPE</strong>
