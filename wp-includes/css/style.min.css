@@ -568,3 +568,47 @@ slider css */
 .img-div:hover .buy-span {
     opacity: 1;
 }
+
+/* last product */
+.l-products {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+.l-product {
+    width: 500px;
+}
+
+.l-product .l-product-img img {
+    object-fit: cover;
+    aspect-ratio: 3/2;
+    width: 480px;
+    padding: 5px;
+
+}
+
+.l-product .l-product-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l-product-details {
+    text-align: center;
+}
+
+.l-product-details p {
+    color: gray;
+    font-size: 12px;
+}
+
+.last-product-box {
+    padding-bottom: 50px;
+}
+
+.l-product-details p span a {
+    text-decoration: none;
+    color: gray;
+}
