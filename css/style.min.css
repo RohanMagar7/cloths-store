@@ -254,13 +254,14 @@ slider css */
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
 }
 
 .hero-card {
     overflow: hidden;
     text-align: center;
-    margin: 12px;
+    margin: 1.5rem ;
     position: relative;
 }
 

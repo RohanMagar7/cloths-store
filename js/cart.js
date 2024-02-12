@@ -31,7 +31,6 @@ cartIcon.classList.add("cart-icon");
 cancleIcon.addEventListener("click", () => {
     cartBar.style.display = "none";
 });
-
 // event listener for oper cartbar
 cart.addEventListener("click", () => {
     cartBar.style.display = "block";
