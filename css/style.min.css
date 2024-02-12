@@ -261,7 +261,7 @@ slider css */
 .hero-card {
     overflow: hidden;
     text-align: center;
-    margin: 1.5rem ;
+    margin: 1.5rem;
     position: relative;
 }
 
@@ -460,6 +460,7 @@ slider css */
     z-index: 3;
     background-color: white;
     box-shadow: 1px 1px 2px black;
+    display: none;
 }
 
 .cart-box {
