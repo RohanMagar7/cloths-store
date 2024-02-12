@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
 * {
     /* border: red solid 1px; */
     margin: 0;
@@ -353,6 +354,7 @@ slider css */
     overflow: auto;
     gap: 2rem;
 }
+
 .container-card {
     display: flex;
     justify-content: center;
@@ -445,4 +447,34 @@ slider css */
 .l-product-details p span a {
     text-decoration: none;
     color: gray;
+}
+
+.cart-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    padding: 10px 20px;
+    height: 100%;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+}
+
+.cart-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-bar .cart-text {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cart-icon {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem !important;
+    padding-top: 65px !important;
+
 }
