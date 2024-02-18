@@ -40,6 +40,10 @@ shoppingBtn.style.textTransform = "uppercase"
 shoppingBtn.classList.add("cart-shopping-btn");
 emptyCartMsg.insertAdjacentElement("afterend", shoppingBtn);
 
+shoppingBtn.onclick = function () {
+    location.assign('/page/product.html');
+  };
+
 
 // event listener for close cartbar
 cancleIcon.addEventListener("click", () => {
