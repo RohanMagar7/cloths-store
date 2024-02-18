@@ -245,15 +245,11 @@ slider css */
 
 }
 
-
-
-
-
 /* product hovar show home */
 .hero-product-hov {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     width: 100%;
 }
@@ -299,7 +295,6 @@ slider css */
 
 .details-bx {
     padding: 15px 42px;
-    background-color: #fff;
 }
 
 .hero-card img {
@@ -492,15 +487,16 @@ slider css */
     background-color: black;
     color: white;
     border: none;
-    font-size: 24px;
+    font-size: 14px;
     transition: all 0.15s ease;
     cursor: pointer;
+    border-radius: 18px;
 }
 
 
 .cart-bar .cart-shopping-btn:hover {
 
-    background-color: white;
+    background-color: rgb(245, 210, 210);
     color: black;
-    border: 2px solid black;
+    
 }

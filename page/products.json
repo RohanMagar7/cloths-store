@@ -107,5 +107,33 @@
 		"images": [
 		  { "url": "/asset/card-product/bohemian-skirt-green.png", "color": "#27AE60" }
 		]
+	  },
+	  {
+		  "id": 15,
+		  "name": "T-Shirt",
+		  "price": "$40.00",
+		  "images": [
+			  {
+				  "url": "/asset/card-product/T-shirt-black.png",
+				  "color": "#272727"
+			  },
+			  {
+				  "url": "/asset/card-product/T-shirt-darkblue.png",
+				  "color": "#23284E"
+			  }
+		  ]
+	  },
+  
+	  {
+		  "id": 16,
+		  "name": "Oversize T-Shirt",
+		  "price": "$52.99",
+		  "images": [
+			  {
+				  "url": "/asset/card-product/oversize-T-shirt-blue.png",
+				  "color": "#4F8196"
+			  }
+		  ]
 	  }
+  
 ]
