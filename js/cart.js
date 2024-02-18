@@ -50,6 +50,7 @@ cancleIcon.addEventListener("click", () => {
 cart.addEventListener("click", () => {
     cartBar.style.display = "block"
     cartBar.style.transform = `translateX(0px)`
+
 });
 
 
