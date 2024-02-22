@@ -42,8 +42,7 @@ emptyCartMsg.insertAdjacentElement("afterend", shoppingBtn);
 
 shoppingBtn.onclick = function () {
     location.assign('/page/product.html');
-  };
-
+};
 
 // event listener for close cartbar
 cancleIcon.addEventListener("click", () => {
@@ -57,7 +56,35 @@ cart.addEventListener("click", () => {
 
 });
 
+let addedProduct = document.createElement("div");
+addedProduct.innerHTML = `<div class="cart-delevery-msg">
+        <i></i> <span>You have got <strong>FREE SHIPPING</strong></span>
+    </div>
+    <div class="cart-added-box">
+        <!-- flex -column -->
+        <div class="added-product">
+            <div class="add-p-img">
+                <img src="asset/blog-images/blocg-img-1.jpg" alt="Err">
+            </div>
+            <div class="added-p-info">
+                <div class="added-p-name-remove">
+                    <p>inerbloom puffer jacket</p>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="added-p-qontity-price">
+                    <p class="quentity-box">
+                        <span>-</span>
+                        <span>2</span>
+                        <span>+</span>
+                    </p>
+                    <p class="price"> $500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+`;
 
+shoppingBtn.insertAdjacentElement("afterend", addedProduct);
 
 
 
