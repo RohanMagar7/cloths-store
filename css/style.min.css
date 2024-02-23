@@ -552,6 +552,9 @@ color: #000;
     right: 2px;
     bottom: 8px;
 }
+.right p{
+    padding: 34px 0px;
+}
 
 /* cart added product css */
 .cart-delevery-msg {

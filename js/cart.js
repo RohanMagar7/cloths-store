@@ -64,7 +64,7 @@ addedProduct.innerHTML = `<div class="cart-delevery-msg">
         <!-- flex -column -->
         <div class="added-product">
             <div class="add-p-img">
-                <img src="asset/blog-images/blocg-img-1.jpg" alt="Err">
+                <img src="/asset/blog-images/blocg-img-1.jpg" alt="Err">
             </div>
             <div class="added-p-info">
                 <div class="added-p-name-remove">
