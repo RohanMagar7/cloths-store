@@ -13,7 +13,8 @@
             text-align: center;
             width: 100%;
             min-height: 70px;
-            position: relative;
+            position: fixed;
+            z-index: 1;
             color: #000;
             background-color: #fafafa;
         }
@@ -226,7 +227,7 @@
 </head>
 
 <body>
-    <div class="nav-bar">
+    <div class="nav-bar" id="nav-bar">
         <ul id="ul-menu">
             <li class="li" id="menu-icon"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
             <li class="li second-search"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
@@ -241,7 +242,7 @@
                 <li class="li"><a href="/index.html">home</a></li>
                 <li class="li"><a href="/page/product.html">Shop</a></li>
                 <li class="li"><a href="#">Features</a></li>
-                <li class="li"><a href="#">New In</a></li>
+                <li class="li"><a href="#" id="new-in">New In</a></li>
                 <li class="li"><a href="#">Lookbook </a></li>
                 <li class="li"><a href="#">Pages</a></li>
                 <li class="li"><a href="#">Blog</a></li>

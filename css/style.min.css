@@ -501,22 +501,24 @@ slider css */
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap:23px;
+    gap: 23px;
 }
 
 .account-main .left {
     border: #111 solid 0.3px;
     width: 400px;
     height: 300px
-     
 }
-.account-main .right{
-border: #111 solid 0.3px;    width: 400px;
+
+.account-main .right {
+    border: #111 solid 0.3px;
+    width: 400px;
     height: 300px;
-     
+
 }
-#CustomerLoginForm{
-margin: 30px 13px;
+
+#CustomerLoginForm {
+    margin: 30px 13px;
 }
 
 #customer_login {
@@ -532,10 +534,11 @@ margin: 30px 13px;
     outline: none;
     border: 0.4px solid black;
 }
-#customer_login input::placeholder{
+
+#customer_login input::placeholder {
     padding: 10px;
     margin: 0 10px;
-color: #000;
+    color: #000;
 }
 
 #customer_login input textarea {
@@ -547,8 +550,9 @@ color: #000;
 #customer_login .btn {
     width: 100px;
 }
-#customer_login #RecoverPassword{
- position:absolute;
+
+#customer_login #RecoverPassword {
+    position: absolute;
     right: 2px;
     bottom: 8px;
 }
@@ -621,5 +625,51 @@ color: #000;
 
 .added-p-name-remove p {
     font-size: 1rem;
+}
+
+/* Product navigation  */
+.hover-product-navigaiton {
+    min-height: 300px;
+    max-height: 500px;
+    width: 95%;
+    position: fixed;
+    top: 80px;
+    left: 26px;
+    z-index: 12;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 1px 2px 9px 1px black;
+}
+
+/* calss box of item */
+.list-opt-Box {
+    padding: 12px 20px;
+    display: flex;
+
+}
+
+/* class for list of item */
+.list-of-itme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.list-of-itme li {
+    padding: 12px;
+    margin: 2px;
+    text-align: left;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    width: 150px;
+
+}
+
+.list-of-itme li:hover {
+    background-color: rgb(186, 186, 186);
 
 }

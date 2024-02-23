@@ -86,6 +86,45 @@ addedProduct.innerHTML = `<div class="cart-delevery-msg">
 
 shoppingBtn.insertAdjacentElement("afterend", addedProduct);
 
+let productHoverOpt = document.createElement("div");
+productHoverOpt.classList.add("hover-product-navigaiton");
+
+let newInButton = document.querySelector("#new-in");
+
+newInButton.addEventListener("mouseover", () => {
+    let afterNavBar = document.querySelector("#nav-bar");
+    afterNavBar.insertAdjacentElement("afterend", productHoverOpt)
+
+})
+productHoverOpt.addEventListener("click", () => {
+    let afterNavBar = document.querySelector("#nav-bar");
+    productHoverOpt.remove();
+})
+
+let listOptBox = document.createElement("div");
+listOptBox.classList.add("list-opt-Box");
+
+productHoverOpt.insertAdjacentElement("afterbegin", listOptBox)
+
+// list of items will add here
+let listOfItem = document.createElement("ul");
+listOfItem.innerHTML = `
+<li> Woman</li>
+<li> Men's</li>
+<li>Kid's</li>
+<li> Accessories</li>
+<li>Beauty </li>
+`;
+listOfItem.style.textTransform = "uppercase"
+listOfItem.classList.add("list-of-itme");
+
+listOptBox.insertAdjacentElement("afterbegin", listOfItem);
+
+
+// after hover the product will add here 
+
+
+
 
 
 
