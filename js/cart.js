@@ -46,7 +46,7 @@ shoppingBtn.onclick = function () {
 
 // event listener for close cartbar
 cancleIcon.addEventListener("click", () => {
-    cartBar.style.transform = `translateX(400px)`
+    cartBar.style.transform = `translateX(800px)`
 
 });
 // event listener for oper cartbar
@@ -108,6 +108,7 @@ productHoverOpt.insertAdjacentElement("afterbegin", listOptBox)
 
 // list of items will add here
 let listOfItem = document.createElement("ul");
+listOfItem.classList.add("list-of-itme");
 listOfItem.innerHTML = `
 <li> Woman</li>
 <li> Men's</li>
@@ -115,10 +116,23 @@ listOfItem.innerHTML = `
 <li> Accessories</li>
 <li>Beauty </li>
 `;
-listOfItem.style.textTransform = "uppercase"
-listOfItem.classList.add("list-of-itme");
 
+listOfItem.style.textTransform = "uppercase"
 listOptBox.insertAdjacentElement("afterbegin", listOfItem);
+
+listOfItem.children[0].addEventListener("mouseover", ()=>{
+    listOfItem.children[0].style.color="red";
+  let womanProduct = document.createElement("div");
+
+})
+
+listOfItem.children[0].addEventListener("mouseout", ()=>{
+    listOfItem.children[0].style.color="black";
+  let womanProduct = document.createElement("div");
+
+})
+
+
 
 
 // after hover the product will add here 
