@@ -36,24 +36,22 @@ emptyCartMsg.style.paddingTop = "10px";
 
 let shoppingBtn = document.createElement("button");
 shoppingBtn.innerText = "continue shopping";
-shoppingBtn.style.textTransform = "uppercase"
+shoppingBtn.style.textTransform = "uppercase";
 shoppingBtn.classList.add("cart-shopping-btn");
 emptyCartMsg.insertAdjacentElement("afterend", shoppingBtn);
 
 shoppingBtn.onclick = function () {
-    location.assign('/page/product.html');
+  location.assign("/page/product.html");
 };
 
 // event listener for close cartbar
 cancleIcon.addEventListener("click", () => {
-    cartBar.style.transform = `translateX(800px)`
-
+  cartBar.style.transform = `translateX(800px)`;
 });
 // event listener for oper cartbar
 cart.addEventListener("click", () => {
-    cartBar.style.display = "block"
-    cartBar.style.transform = `translateX(0px)`
-
+  cartBar.style.display = "block";
+  cartBar.style.transform = `translateX(0px)`;
 });
 
 let addedProduct = document.createElement("div");
@@ -92,19 +90,18 @@ productHoverOpt.classList.add("hover-product-navigaiton");
 let newInButton = document.querySelector("#new-in");
 
 newInButton.addEventListener("mouseover", () => {
-    let afterNavBar = document.querySelector("#nav-bar");
-    afterNavBar.insertAdjacentElement("afterend", productHoverOpt)
-
-})
+  let afterNavBar = document.querySelector("#nav-bar");
+  afterNavBar.insertAdjacentElement("afterend", productHoverOpt);
+});
 productHoverOpt.addEventListener("click", () => {
-    let afterNavBar = document.querySelector("#nav-bar");
-    productHoverOpt.remove();
-})
+  let afterNavBar = document.querySelector("#nav-bar");
+  productHoverOpt.remove();
+});
 
 let listOptBox = document.createElement("div");
 listOptBox.classList.add("list-opt-Box");
 
-productHoverOpt.insertAdjacentElement("afterbegin", listOptBox)
+productHoverOpt.insertAdjacentElement("afterbegin", listOptBox);
 
 // list of items will add here
 let listOfItem = document.createElement("ul");
@@ -117,28 +114,58 @@ listOfItem.innerHTML = `
 <li>Beauty </li>
 `;
 
-listOfItem.style.textTransform = "uppercase"
+listOfItem.style.textTransform = "uppercase";
 listOptBox.insertAdjacentElement("afterbegin", listOfItem);
+for (let i = 0; i < listOfItem.children.length; i++) {
+  listOfItem.children[i].addEventListener("mouseover", () => {
+    listOfItem.children[i].style.color="black";
+    listOfItem.children[i].style.color = "red";
+    if (i == 0) {
+      let womanProduct = document.createElement("div");
+      womanProduct.innerText = "Hello";
+      listOptBox.insertAdjacentElement("beforeend", womanProduct);
+      listOfItem.children[i].addEventListener("mouseout", () => {
+        listOfItem.children[i].style.color="black";
+        womanProduct.remove();
+      });
+    }
+    if (i == 1) {
+      let womanProduct = document.createElement("div");
+      womanProduct.innerText = "Hello";
+      listOptBox.insertAdjacentElement("beforeend", womanProduct);
+      listOfItem.children[i].addEventListener("mouseout", () => {
+        listOfItem.children[i].style.color="black";
+        womanProduct.remove();
+      });
+    }
+    if (i == 2) {
+      let womanProduct = document.createElement("div");
+      womanProduct.innerText = "Hello";
+      listOptBox.insertAdjacentElement("beforeend", womanProduct);
+      listOfItem.children[i].addEventListener("mouseout", () => {
+        listOfItem.children[i].style.color="black";
+        womanProduct.remove();
+      });
+    }
+    if (i == 3) {
+      let womanProduct = document.createElement("div");
+      womanProduct.innerText = "Hello";
+      listOptBox.insertAdjacentElement("beforeend", womanProduct);
+      listOfItem.children[i].addEventListener("mouseout", () => {
+        listOfItem.children[i].style.color="black";
+        womanProduct.remove();
+      });
+    }
+    if (i == 4) {
+      let womanProduct = document.createElement("div");
+      womanProduct.innerText = "Hello";
+      listOptBox.insertAdjacentElement("beforeend", womanProduct);
+      listOfItem.children[i].addEventListener("mouseout", () => {
+        listOfItem.children[i].style.color="black";
+        womanProduct.remove();
+      });
+    }
+  });
+}
 
-listOfItem.children[0].addEventListener("mouseover", ()=>{
-    listOfItem.children[0].style.color="red";
-  let womanProduct = document.createElement("div");
-
-})
-
-listOfItem.children[0].addEventListener("mouseout", ()=>{
-    listOfItem.children[0].style.color="black";
-  let womanProduct = document.createElement("div");
-
-})
-
-
-
-
-// after hover the product will add here 
-
-
-
-
-
-
+// after hover the product will add here
