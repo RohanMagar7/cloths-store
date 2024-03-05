@@ -122,7 +122,7 @@ for (let i = 0; i < listOfItem.children.length; i++) {
     listOfItem.children[i].style.color = "red";
     if (i == 0) {
       let womanProduct = document.createElement("div");
-      womanProduct.innerText = "Hello";
+      womanProduct.innerText = " Woman Product and this li";
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
         listOfItem.children[i].style.color="black";
