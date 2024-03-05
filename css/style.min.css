@@ -648,6 +648,8 @@ slider css */
 .list-opt-Box {
     padding: 12px 20px;
     display: flex;
+    overflow: auto;
+    
 
 }
 
@@ -658,7 +660,7 @@ slider css */
     align-items: center;
     justify-content: center;
     gap: 10px;
-
+    cursor: pointer;
 
 }
 
@@ -675,4 +677,8 @@ slider css */
 .list-of-itme li:hover {
     background-color: rgb(186, 186, 186);
 
+}
+/* css for new-in seciton which dynamically added */
+.new-in-product-box{
+    padding: 22px;
 }

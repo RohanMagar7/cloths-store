@@ -122,7 +122,27 @@ for (let i = 0; i < listOfItem.children.length; i++) {
     listOfItem.children[i].style.color = "red";
     if (i == 0) {
       let womanProduct = document.createElement("div");
-      womanProduct.innerText = " Woman Product and this li";
+      womanProduct.innerHTML =`<ul class=" new-in-product-box-ul">
+      <li class="new-in-product-box-ul-li">crop top </li>
+      <li class="new-in-product-box-ul-li">mini dress </li>
+      <li class="new-in-product-box-ul-li">long dress </li>
+      <li class="new-in-product-box-ul-li">swimsuits</li>
+      <li class="new-in-product-box-ul-li"> ethnic wear </li>
+      <li class="new-in-product-box-ul-li">trousers </li>
+      <li class="new-in-product-box-ul-li">jackets </li>
+      <li class="new-in-product-box-ul-li"> shapewear </li>
+      <li class="new-in-product-box-ul-li"> lingerie </li>
+      <li class="new-in-product-box-ul-li">sweetshirts </li>
+      <li class="new-in-product-box-ul-li"> shot dress </li>
+      <li class="new-in-product-box-ul-li"> party dress </li>
+      <li class="new-in-product-box-ul-li">workwear </li>
+      <li class="new-in-product-box-ul-li"> sports wear </li>
+      <li class="new-in-product-box-ul-li">multipacks </li>
+      <li class="new-in-product-box-ul-li">designer dress </li>
+      <li class="new-in-product-box-ul-li">socks &amp; tights</li>
+      <li class="new-in-product-box-ul-li">blazers</li>
+   </ul>`;
+   womanProduct.classList.add("new-in-product-box")
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
         listOfItem.children[i].style.color="black";
