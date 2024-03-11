@@ -134,6 +134,362 @@
 				  "color": "#4F8196"
 			  }
 		  ]
-	  }
+	  },[
+		{
+		"id": 17,
+		  "img": "https://www.karagiri.com/cdn/shop/products/paithani-saree-amber-yellow-paithani-saree-silk-saree-online-32605112467649.jpg?v=1656583333",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "ZWERLON",
+		  "color": "yellow",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://simplecraftidea.com/wp-content/uploads/2018/12/Traditional-south-indian-bridal-blouse-designs-1.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "cream",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://lh3.googleusercontent.com/-2FwR0VsqvSg/YGqGO_6EdaI/AAAAAAAAXqo/S903kw8ASNIWYGai87981dWgWKkSKaJXQCLcBGAsYHQ/s1600/1617593904669046-3.png",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://1.bp.blogspot.com/-dPiFJ7c-tG0/XD9AqKagXWI/AAAAAAAAyW8/RQ16eCj0nZ8M6Sb7ojFwmSgtcMDu4VTCQCLcBGAs/s1600/Rashi%2BKhanna%2BSpicy%2BPhotos%2BIn%2BGreen%2BSaree%2B%25280%2529%2B%255B1%255D.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://2.bp.blogspot.com/---ocvcgq6y0/XAyUy3geAoI/AAAAAAAARso/axNiM5V_QkU_er93Mt43jveT36F0m4VUwCLcBGAs/s1600/raashi-khanna-latest-glamour-saree-stills%2B%252851%2529.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "http://3.bp.blogspot.com/-4mQf3Ixu4To/ULOEBfI5B6I/AAAAAAAADxI/sog0kqA0qN4/s1600/Stylish_akshara_saree_collection_2012_2013_fashionmag+(6).jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/ba/39/d1/ba39d15bc81cf65abb6904a6c357989e.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://image.wedmegood.com/resized/1000X/uploads/images/063f25a6db594973b20d78061d548d7frealwedding/1523885973_TCA_P_V_Wed_191.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://images.bonanzastatic.com/afu/images/5b9c/c6d1/c7df_5719732330/s-l1600.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "http://3.bp.blogspot.com/-lv5sobDmeTU/UgKCWhy29jI/AAAAAAAAB94/Yit3gsrzGnA/s1600/black+saree2.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/736x/ff/1b/31/ff1b3160814e611e9b4b793ca7d0903f.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/a2/f9/22/a2f9223d2c7b9a615a67d0ae37e555bd.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/ea/29/31/ea2931ef33fc5702fc5ce8747d15a805.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/1c/82/40/1c8240e71855ff10add38d98e9579c48.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹700",
+		  "newPrice": "450",
+		  "company": "fubar",
+		  "color": "light green",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/30/7a/2b/307a2b4e80a866c22eaccef6af835860.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹700",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "maroon",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/50/2a/14/502a14c20f6453f6d4cb034f913c9aae.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹600",
+		  "newPrice": "300",
+		  "company": "fubar",
+		  "color": "light pink",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/6c/b7/97/6cb79725d51ca722e66a0814818def1e.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/10/7f/a0/107fa0f186a98c3b3994dc4c573d6598.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "golden",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/f5/7f/6c/f57f6c1d6980946b7848623056536f8d.png",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹599",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "brown",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://cdn.sareeka.com/image/data2019/kanchipuram-silk-red-designer-traditional-saree_QLyy-65928.jpg",
+		  "title": "Women Printed Saree",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designer-saree"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/fe/46/91/fe46915498c4608db7e284f85ff40b6d.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/ef/d5/e3/efd5e33e1e9bdd38fef2af691716f074.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://images.meesho.com/images/products/5251417/1_512.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://images.meesho.com/images/products/328624537/epdg2_512.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "marrun",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "http://5.imimg.com/data5/ECOM/Default/2023/7/326921026/IW/SS/ZQ/71145118/attractive-cream-colored-partywear-digital-printed-pure-muslin-palazzo-suit-peachmode-1.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹499",
+		  "newPrice": "399",
+		  "company": "fubar",
+		  "color": "Marrun",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://media.samyakk.com/pub/media/catalog/product/h/e/he5006.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹2000",
+		  "newPrice": "1500",
+		  "company": "fubar",
+		  "color": "Blue",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "http://www.caleidoscope.in/wp-content/uploads/2018/02/Top-Three-Traditional-Indian-Clothing-Salwar-Kameez.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹700",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "Blue",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/c6/a0/ce/c6a0ce782c5188c9b5b1c8c7997b1e02.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹800",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "Black",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "http://newfashionelle.com/wp-content/uploads/2017/02/Indian-Dresses-on-Pinterest-for-Girls1.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹800",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "Orange",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://newfashionelle.com/wp-content/uploads/2017/02/Indian-dresses-2017-online.jpg",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹800",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "Red",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "https://i.pinimg.com/originals/b8/c9/d0/b8c9d0ff46ef4c0c19e8f02663c2b85d.jpg ",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹800",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "Red",
+		  "category": "designers-dress"
+		},
+		{
+		  "img": "http://www.stylesgap.com/wp-content/uploads/2014/08/Latest-Fashion-of-Designer-Punjabi-Dresses-Patiala-Salwar-Kameez-Suits-for-Women-18-744x1024.jpg ",
+		  "title": "Women Designer Dress",
+		  "star": "<AiFillStar className=\"rating-star\" />",
+		  "reviews": "(123 reviews)",
+		  "prevPrice": "₹800",
+		  "newPrice": "500",
+		  "company": "fubar",
+		  "color": "Black",
+		  "category": "designers-dress"
+		}
+	  ]
+	  
+	  
   
 ]
