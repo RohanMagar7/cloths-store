@@ -162,6 +162,10 @@
                 cursor: pointer;
             }
         }
+        .fa-angle-downz{
+            transform: rotate(180)deg;
+            
+        }
     </style>
 </head>
 
@@ -184,11 +188,11 @@
                 </ul>
             </ul>
         </div>
-        <div class="footer-box">
-            <ul class="footer-ul">
-                <div class="h1-slide-footer">
+        <div  class="footer-box">
+            <ul id="first-footer-info-box" class="footer-ul">
+                <div  class="h1-slide-footer">
                     <h1 class="slide-footer">INFORMATION</h1>
-                    <i class="fa-solid fa-angle-down show-hide-btn"></i>
+                    <i id="first-arrow" class="fa-solid fa-angle-down show-hide-btn"></i>
                 </div>
                 <li class=" slide-item"><a href="#">About us</a></li>
                 <li class="slide-item"><a href="#">Contact Us</a></li>
@@ -197,11 +201,11 @@
                 <li class="slide-item"><a href="#">Orders and Returns</a></li>
             </ul>
         </div>
-        <div class="footer-box">
-            <ul class="footer-ul">
+        <div  class="footer-box">
+            <ul id="second-footer-info-box" class="footer-ul">
                 <div class="h1-slide-footer">
                     <h1 class="slide-footer">QUICK SHOP</h1>
-                    <i class="fa-solid fa-angle-down show-hide-btn"></i>
+                    <i id="second-arrow" class="fa-solid fa-angle-down show-hide-btn"></i>
                 </div>
                 <li class=" slide-item"><a href="#">Fashion</a></li>
                 <li class="slide-item"><a href="#">Men</a></li>
@@ -211,7 +215,7 @@
             </ul>
         </div>
         <div class="footer-box">
-            <ul class="footer-ul">
+            <ul id="third-footer-info-box" class="footer-ul">
                 <div class="h1-slide-footer">
                     <h1 class="slide-footer">CUSTOMER SERVICES</h2>
                         <i id="icon-con" class=" fa-solid fa-angle-down show-hide-btn"></i>
@@ -241,6 +245,8 @@
         <i class="fa-solid fa-arrow-up"></i>
 
     </div>
+<script src="./js/footer.js"></script>
+
 </body>
 
 </html>

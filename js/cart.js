@@ -118,11 +118,11 @@ listOfItem.style.textTransform = "uppercase";
 listOptBox.insertAdjacentElement("afterbegin", listOfItem);
 for (let i = 0; i < listOfItem.children.length; i++) {
   listOfItem.children[i].addEventListener("mouseover", () => {
-    listOfItem.children[i].style.color="black";
+    listOfItem.children[i].style.color = "black";
     listOfItem.children[i].style.color = "red";
     if (i == 0) {
-      let womanProduct = document.createElement("div");
-      womanProduct.innerHTML =`<ul class=" new-in-product-box-ul">
+      let womanProduct = document.createElement("ul");
+      womanProduct.innerHTML = `
       <li class="new-in-product-box-ul-li">crop top </li>
       <li class="new-in-product-box-ul-li">mini dress </li>
       <li class="new-in-product-box-ul-li">long dress </li>
@@ -141,47 +141,94 @@ for (let i = 0; i < listOfItem.children.length; i++) {
       <li class="new-in-product-box-ul-li">designer dress </li>
       <li class="new-in-product-box-ul-li">socks &amp; tights</li>
       <li class="new-in-product-box-ul-li">blazers</li>
-   </ul>`;
-   womanProduct.classList.add("new-in-product-box")
+   `;
+      womanProduct.classList.add("new-in-product-box-ul");
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
-        listOfItem.children[i].style.color="black";
+        listOfItem.children[i].style.color = "black";
         womanProduct.remove();
       });
     }
+
     if (i == 1) {
-      let womanProduct = document.createElement("div");
-      womanProduct.innerText = "Hello";
+      let womanProduct = document.createElement("ul");
+      womanProduct.innerHTML = `<li class="new-in-product-box-ul-li">Casual Shirts </li>
+      <li class="new-in-product-box-ul-li">T-Shirts & Vests </li>
+      <li class="new-in-product-box-ul-li">Jackets & Coats </li>
+      <li class="new-in-product-box-ul-li">Joggers </li>
+      <li class="new-in-product-box-ul-li">jumpers & cardigans </li>
+      <li class="new-in-product-box-ul-li">loungewear </li>
+      <li class="new-in-product-box-ul-li">underwear </li>
+      <li class="new-in-product-box-ul-li">sportswear </li>
+      <li class="new-in-product-box-ul-li">smart  shoes </li>
+      <li class="new-in-product-box-ul-li"> trousers & tights </li>
+      <li class="new-in-product-box-ul-li"> suits & tailoring  multipacks  </li>
+      <li class="new-in-product-box-ul-li">designer shirts </li>
+      <li class="new-in-product-box-ul-li">trousers & chinous </li>
+      <li class="new-in-product-box-ul-li">sliders & flip flops </li>
+      <li class="new-in-product-box-ul-li">trousers & tights</li>`;
+      womanProduct.classList.add("new-in-product-box-ul");
+
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
-        listOfItem.children[i].style.color="black";
+        listOfItem.children[i].style.color = "black";
         womanProduct.remove();
       });
     }
     if (i == 2) {
-      let womanProduct = document.createElement("div");
-      womanProduct.innerText = "Hello";
+      let womanProduct = document.createElement("ul");
+      womanProduct.innerHTML = `<li class="new-in-product-box-ul-li">sets & suit </li>
+      <li class="new-in-product-box-ul-li">jeans & trouser </li>
+      <li class="new-in-product-box-ul-li">tops and t-shirt </li>
+      <li class="new-in-product-box-ul-li">onesides & rompers </li>
+      <li class="new-in-product-box-ul-li">ethnic wear </li>
+      <li class="new-in-product-box-ul-li">bring the spring </li>
+      <li class="new-in-product-box-ul-li">baby essentials </li>
+      <li class="new-in-product-box-ul-li">footwear </li>
+      <li class="new-in-product-box-ul-li">kids toys </li>
+      <li class="new-in-product-box-ul-li">nursery </li>`;
+      womanProduct.classList.add("new-in-product-box-ul");
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
-        listOfItem.children[i].style.color="black";
+        listOfItem.children[i].style.color = "black";
         womanProduct.remove();
       });
     }
     if (i == 3) {
-      let womanProduct = document.createElement("div");
-      womanProduct.innerText = "Hello";
+      let womanProduct = document.createElement("ul");
+      womanProduct.innerHTML = ` <li class="new-in-product-box-ul-li">caps & hats </li>
+      <li class="new-in-product-box-ul-li"> face coverings </li>
+      <li class="new-in-product-box-ul-li"> hair accessories </li>
+      <li class="new-in-product-box-ul-li"> jewellery </li>
+      <li class="new-in-product-box-ul-li">socks & tights </li>
+      <li class="new-in-product-box-ul-li">watches </li>
+      <li class="new-in-product-box-ul-li">bags & purses </li>
+      <li class="new-in-product-box-ul-li">footwear </li>
+      <li class="new-in-product-box-ul-li">socks & tights  </li>
+      <li class="new-in-product-box-ul-li">spring special </li>`;
+      womanProduct.classList.add("new-in-product-box-ul");
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
-        listOfItem.children[i].style.color="black";
+        listOfItem.children[i].style.color = "black";
         womanProduct.remove();
       });
     }
     if (i == 4) {
-      let womanProduct = document.createElement("div");
-      womanProduct.innerText = "Hello";
+      let womanProduct = document.createElement("ul");
+      womanProduct.innerHTML = ` <li class="new-in-product-box-ul-li">body care </li>
+      <li class="new-in-product-box-ul-li"> fragrances </li>
+      <li class="new-in-product-box-ul-li"> hair care </li>
+      <li class="new-in-product-box-ul-li"> makeup </li>
+      <li class="new-in-product-box-ul-li">skin care </li>
+      <li class="new-in-product-box-ul-li"> suncare & tanning </li>
+      <li class="new-in-product-box-ul-li">wellness </li>
+      <li class="new-in-product-box-ul-li"> tools & accessories </li>
+      <li class="new-in-product-box-ul-li">nailcare </li>
+      <li class="new-in-product-box-ul-li">monday Haircare</li>`;
+      womanProduct.classList.add("new-in-product-box-ul");
       listOptBox.insertAdjacentElement("beforeend", womanProduct);
       listOfItem.children[i].addEventListener("mouseout", () => {
-        listOfItem.children[i].style.color="black";
+        listOfItem.children[i].style.color = "black";
         womanProduct.remove();
       });
     }

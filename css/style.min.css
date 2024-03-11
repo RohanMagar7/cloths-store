@@ -456,6 +456,11 @@ slider css */
     transition: transform 0.3s ease;
     display: none;
 }
+@media screen and (max-width:770px) {
+    .cart-bar {
+       width: 100%;
+    }
+}
 
 .cart-box {
     display: flex;
@@ -632,8 +637,7 @@ slider css */
 
 /* Product navigation  */
 .hover-product-navigaiton {
-    min-height: 300px;
-    max-height: 500px;
+    height: 300px;
     width: 95%;
     position: fixed;
     top: 80px;
@@ -649,6 +653,7 @@ slider css */
     padding: 12px 20px;
     display: flex;
     overflow: auto;
+    height: 100%;
     
 
 }
@@ -681,4 +686,25 @@ slider css */
 /* css for new-in seciton which dynamically added */
 .new-in-product-box{
     padding: 22px;
+    border: 2px solid green;
+    width: 100%;
+    
+}
+
+.new-in-product-box-ul {
+    display: flex;
+    flex-wrap: wrap; /* Added: Allow items to wrap to the next row */
+    max-width: 100%;
+    padding: 0 15px;
+}
+.new-in-product-box-ul-li {
+    flex: 2 50%; /* Added: Each item takes up 50% of the container width */
+    font-size: 20px;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+@media (min-width: 500px) {
+    .new-in-product-box-ul-li {
+        flex-basis: 50%; /* Each item takes up 50% width on larger screens */
+    }
 }
