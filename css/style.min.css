@@ -708,3 +708,35 @@ slider css */
         flex-basis: 50%; /* Each item takes up 50% width on larger screens */
     }
 }
+/* Home Menue Bar for Small Devices */
+
+@media screen and (max-width:10px) {
+    .small-device-menue{
+        border:2px solid red;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    transition: all 0.5s ease;
+    background-color: white;
+    }
+    .small-device-menue-box{
+        border:green 2px solid ;
+        margin: 12px ;
+        height: 95vh;
+        width: 80vw;
+    }
+    .back-btn-of-home-menue{
+    color: rgb(75, 74, 74);
+    transform: rotate(270deg);
+    font-size: 2rem !important;
+    }
+   
+}
+
+
+

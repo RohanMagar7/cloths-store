@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #home {
+        width: 100vw;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .home-nav-bar-item{
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 2rem;
+        background-color: black;
+      }
+      /* .home-nav-bar-item a:active .home-nav-bar-item {
+        border: 2px solid black;
+        text-align: center;
+        background-color: black;
+        color: white;
+      } */
+
+      .home-nav-bar-item a {
+        color: black;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 2rem;
+      }
+
+      .home-nav-bar-item a:active {
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 2rem;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="home">
+      <a href="#"><p class="home-nav-bar-item" id="menu-bar-home-nav">
+        home
+      </p></a>
+      <a href="#"><p class="home-nav-bar-item" id="menu-bar-shop-nav">
+        Shop
+      </p></a>
+      <a href="#"><p class="home-nav-bar-item" id="menu-new-in-home-nav">
+        new in
+      </p></a>
+    </div>
+  </body>
+</html>
