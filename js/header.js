@@ -10,7 +10,7 @@ homeMenu.addEventListener("click", () => {
     }, 0);
 
     smallDeviceMenueBar.insertAdjacentElement("afterbegin", navBar);
-    smallDeviceMenueBar.insertAdjacentElement("beforeend", backBtnOfHomeMenue);
+navBar.insertAdjacentElement("beforeend", backBtnOfHomeMenue);
 
     backBtnOfHomeMenue.addEventListener("click", () => {
         smallDeviceMenueBar.style.transform = `translate(${ -1000}px)`;
@@ -18,15 +18,19 @@ homeMenu.addEventListener("click", () => {
 });
 
 let backBtnOfHomeMenue = document.createElement("i");
-backBtnOfHomeMenue.classList.add("back-btn-of-home-menue", "fa-solid", "fa-angle-down");
+backBtnOfHomeMenue.classList.add("back-btn-of-home-menue", "fa-solid", "fa-xmark");
 
 let navBar = document.createElement("div");
-navBar.innerHTML = `
-<a her=""><p class="home-menue-bar-item">Home</a></p>
-<a her=""><p class="home-menue-bar-item"></a></p>
-<a her=""><p class="home-menue-bar-item"></a></p>
-`;
 navBar.classList.add("small-device-menue-box");
+navBar.innerHTML = `<a class="home-nav-bar-item" id="menu-bar-home-nav" href="#">
+<p>home</p>
+</a>
+<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="#">
+<p>Shop</p>
+</a>
+<a class="home-nav-bar-item" id="menu-new-in-home-nav" href="#">
+<p>new in</p>
+</a>`
 
 let smallDeviceMenueBar = document.createElement("div");
 smallDeviceMenueBar.classList.add("small-device-menue");
