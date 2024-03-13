@@ -22,10 +22,10 @@ backBtnOfHomeMenue.classList.add("back-btn-of-home-menue", "fa-solid", "fa-xmark
 
 let navBar = document.createElement("div");
 navBar.classList.add("small-device-menue-box");
-navBar.innerHTML = `<a class="home-nav-bar-item" id="menu-bar-home-nav" href="#">
+navBar.innerHTML = `<a class="home-nav-bar-item" id="menu-bar-home-nav" href="/index.html">
 <p>home</p>
 </a>
-<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="#">
+<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="">
 <p>Shop</p>
 </a>
 <a class="home-nav-bar-item" id="menu-new-in-home-nav" href="#">
