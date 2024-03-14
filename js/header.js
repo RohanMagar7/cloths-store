@@ -35,5 +35,3 @@ navBar.innerHTML = `<a class="home-nav-bar-item" id="menu-bar-home-nav" href="/i
 
 let smallDeviceMenueBar = document.createElement("div");
 smallDeviceMenueBar.classList.add("small-device-menue");
-
->>>>>>> 3b7cc54a74fa977d34145f8a25f44e18faa4d7d5
