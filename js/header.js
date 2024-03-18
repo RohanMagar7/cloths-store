@@ -26,10 +26,10 @@ navBar.classList.add("small-device-menue-box");
 navBar.innerHTML = `<a class="home-nav-bar-item" id="menu-bar-home-nav" href="/index.html">
 <p>home</p>
 </a>
-<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="">
+<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="/page/product.html">
 <p>Shop</p>
 </a>
-<a class="home-nav-bar-item" id="menu-new-in-home-nav" href="#">
+<a class="home-nav-bar-item" id="menu-new-in-home-nav" href="/page/collections.html">
 <p>new in</p>
 </a>`
 
