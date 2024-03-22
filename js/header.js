@@ -1,3 +1,4 @@
+
 let homeMenu = document.querySelector("#menu-bar-icon");
 
 homeMenu.addEventListener("click", () => {
@@ -10,10 +11,10 @@ homeMenu.addEventListener("click", () => {
     }, 0);
 
     smallDeviceMenueBar.insertAdjacentElement("afterbegin", navBar);
-navBar.insertAdjacentElement("beforeend", backBtnOfHomeMenue);
+    navBar.insertAdjacentElement("beforeend", backBtnOfHomeMenue);
 
     backBtnOfHomeMenue.addEventListener("click", () => {
-        smallDeviceMenueBar.style.transform = `translate(${ -1000}px)`;
+        smallDeviceMenueBar.style.transform = `translate(${-1000}px)`;
     });
 });
 
@@ -25,13 +26,12 @@ navBar.classList.add("small-device-menue-box");
 navBar.innerHTML = `<a class="home-nav-bar-item" id="menu-bar-home-nav" href="/index.html">
 <p>home</p>
 </a>
-<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="">
+<a class="home-nav-bar-item" id="menu-bar-shop-nav" href="/page/product.html">
 <p>Shop</p>
 </a>
-<a class="home-nav-bar-item" id="menu-new-in-home-nav" href="#">
+<a class="home-nav-bar-item" id="menu-new-in-home-nav" href="/page/collections.html">
 <p>new in</p>
 </a>`
 
 let smallDeviceMenueBar = document.createElement("div");
 smallDeviceMenueBar.classList.add("small-device-menue");
-  

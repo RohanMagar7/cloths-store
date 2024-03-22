@@ -242,7 +242,9 @@ slider css */
   text-align: center;
   width: 100%;
 }
-
+.slider{
+  padding-top: 4rem;
+}
 .hero-card {
   overflow: hidden;
   text-align: center;
